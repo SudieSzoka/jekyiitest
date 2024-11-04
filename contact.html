@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>联系我们 - 静态网站示例</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">主页</a></li>
+            <li><a href="about.html">关于我们</a></li>
+            <li><a href="contact.html">联系我们</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1>联系我们</h1>
+        <p>这是联系页的默认内容。</p>
+    </header>
+    <section>
+        <h2>联系方式</h2>
+        <form id="contact-form">
+            <label for="name">姓名:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">邮箱:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">留言:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">发送</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2023 静态网站示例</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
